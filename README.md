@@ -57,4 +57,4 @@ Cuando el código está correcto, **PSeInt mostrará automáticamente las salida
 
 ## 📚 Autor
 
-### NEDUAL VARGAS
+### NEDUAL E. VARGAS PEREZ
