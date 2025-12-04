@@ -1,60 +1,73 @@
-# Ejercicios con Tipos de Datos en PSeInt
+# 🚀 Fundamentos de Programación y Bases de Datos
 
-Este proyecto contiene una colección de **25 ejercicios prácticos en PSeInt**, clasificados por tipo de dato:
+Este repositorio consolida una colección progresiva de ejercicios prácticos diseñados para fortalecer el pensamiento lógico y las habilidades de desarrollo de software.
 
-* **Entero**
-* **Real**
-* **Cadena**
-* **Carácter**
-* **Lógico (Booleano)**
-
-Cada programa fue desarrollado para reforzar los fundamentos de programación estructurada, utilizando las principales operaciones y estructuras básicas de control en PSeInt.
+El proyecto abarca tres áreas fundamentales:
+1.  **Lógica Algorítmica** (PSeInt).
+2.  **Programación Multipropósito** (Python).
+3.  **Gestión de Datos** (Bases de Datos).
 
 ---
 
-## 📘 Objetivo general
+## 📘 Objetivos del Proyecto
 
-Desarrollar lógica algorítmica y familiarizarse con los diferentes tipos de datos en PSeInt mediante ejercicios simples, verificando la correcta entrada, procesamiento y salida de información.
-
----
-
-## 🧩 Contenido
-
-Cada archivo `.psc` representa un ejercicio independiente.
-Ejemplos de operaciones incluidas:
-
-* Sumas, promedios y conversiones (datos numéricos).
-* Manipulación de texto (cadenas y caracteres).
-* Evaluaciones lógicas con valores booleanos (Verdadero/Falso).
-
-Los procesos siguen el mismo formato:
-
-1. **Entrada de datos** mediante `Leer`.
-2. **Procesamiento** con operadores y estructuras condicionales.
-3. **Salida de resultados** mediante `Escribir`.
+* **Desarrollar lógica computacional:** Entender cómo estructurar soluciones paso a paso.
+* **Dominar la sintaxis de código:** Transición de pseudocódigo a un lenguaje real como Python.
+* **Implementar paradigmas modernos:** Uso de Programación Orientada a Objetos (POO) e Interfaces Gráficas (GUI).
+* **Gestión de información:** Introducción al almacenamiento y consulta de datos.
 
 ---
 
-## ⚙️ Requisitos
+## 🧩 Contenido del Repositorio
 
-* Tener instalado **PSeInt** (versión 2020 o superior).
-* Cargar el archivo `.psc` correspondiente y ejecutar el algoritmo.
+### 1. PSeInt (Lógica y Algoritmos)
+Ejercicios enfocados en tipos de datos y estructuras de control básicas.
+* **Tipos de Datos:** Entero, Real, Cadena, Carácter y Lógico.
+* **Operaciones:** Sumas, promedios, conversiones y validaciones.
+* **Estructura:** Entrada (`Leer`), Proceso y Salida (`Escribir`).
+
+### 2. Python (Scripting y Desarrollo)
+Port de la lógica a un lenguaje de producción, incluyendo conceptos avanzados.
+* **Sintaxis Básica:** Condicionales (`if/else`) y Bucles (`for/while`).
+* **POO (Clases y Objetos):** Creación de modelos (Ej: `Usuario`, `Coche`, `CuentaBancaria`), Herencia y Polimorfismo.
+* **Interfaces Gráficas (GUI):** Desarrollo de ventanas interactivas con **Tkinter** (Labels, Buttons, Entry, Canvas).
+* **Automatización:** Scripts funcionales para tareas específicas.
+
+### 3. Bases de Datos (En desarrollo)
+Introducción a la persistencia y manipulación de datos.
+* Diseño de estructuras de tablas.
+* Consultas y manipulación de registros.
 
 ---
 
-## 🖼️ Nota importante sobre las imágenes o resultados
+## ⚙️ Requisitos Técnicos
 
-PSeInt **no generará salidas gráficas o resultados** si el código contiene errores de sintaxis o lógica.
-En ese caso, se recomienda:
+Para ejecutar los proyectos contenidos aquí, necesitarás:
 
-* Revisar paréntesis, operadores y estructuras condicionales.
-* Verificar la indentación y el cierre de bloques (`FinSi`, `FinProceso`, etc.).
-* Probar el algoritmo paso a paso con la opción **“Depurar”** para identificar el punto de fallo.
+* **Para Algoritmos:** [PSeInt](http://pseint.sourceforge.net/) (Versión 2020+).
+* **Para Código Fuente:** [Python](https://www.python.org/) (Versión 3.x).
+* **Entorno de Desarrollo:** VS Code, PyCharm, o cualquier editor de texto.
+* **Bases de Datos:** Motor de BD compatible (según el ejercicio específico).
 
-Cuando el código está correcto, **PSeInt mostrará automáticamente las salidas esperadas en pantalla**, confirmando que el algoritmo funciona.
+---
+
+## 🛠️ Guía de Solución de Problemas
+
+### En PSeInt
+Si no se generan resultados:
+* Revisar el cierre de bloques (`FinSi`, `FinProceso`).
+* Usar la herramienta **"Depurar"** (paso a paso) para ver dónde se detiene el flujo.
+
+### En Python
+Si el script falla o se cierra:
+* Verificar la **indentación** (Python es estricto con los espacios).
+* Leer el **Traceback** en la terminal; suele indicar la línea exacta del error.
+* Asegurarse de importar las librerías necesarias (ej: `import tkinter`).
 
 ---
 
 ## 📚 Autor
 
-### NEDUAL E. VARGAS PEREZ
+**NEDUAL E. VARGAS PEREZ**
+
+*Entusiasta de la Infraestructura TI, Ciberseguridad y Desarrollo.*
