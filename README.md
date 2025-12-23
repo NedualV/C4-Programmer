@@ -1,68 +1,82 @@
-# 🚀 Fundamentos de Programación y Bases de Datos
+# 🚀 Fundamentos de Programación, Python y Bases de Datos
 
-Este repositorio consolida una colección progresiva de ejercicios prácticos diseñados para fortalecer el pensamiento lógico y las habilidades de desarrollo de software.
+Este repositorio consolida mi portafolio de aprendizaje progresivo, abarcando desde la lógica algorítmica fundamental hasta el desarrollo de aplicaciones de escritorio con persistencia de datos en MySQL.
 
-El proyecto abarca tres áreas fundamentales:
+El proyecto se divide en tres pilares:
 1.  **Lógica Algorítmica** (PSeInt).
-2.  **Programación Multipropósito** (Python).
-3.  **Gestión de Datos** (Bases de Datos).
+2.  **Desarrollo de Software** (Python + POO + GUI).
+3.  **Ingeniería de Datos** (Modelado SQL y Consultas Avanzadas).
 
 ---
 
-## 📘 Objetivos del Proyecto
+## 🏆 Proyecto Destacado: Sistema de Gestión de Red e Inventario
 
-* **Desarrollar lógica computacional:** Entender cómo estructurar soluciones paso a paso.
-* **Dominar la sintaxis de código:** Transición de pseudocódigo a un lenguaje real como Python.
-* **Implementar paradigmas modernos:** Uso de Programación Orientada a Objetos (POO) e Interfaces Gráficas (GUI).
-* **Gestión de información:** Introducción al almacenamiento y consulta de datos.
+Aplicación de escritorio completa para la administración de activos de infraestructura TI. Este proyecto integra todos los conocimientos adquiridos (Frontend, Backend y Base de Datos).
+
+* **Tecnologías:** Python 3, Tkinter, MySQL Connector, Librería `ipaddress`.
+* **Funcionalidades:**
+    * ✅ **CRUD Completo:** Registro, lectura y búsqueda de equipos (Routers, Switches, PCs).
+    * ✅ **Validación de Datos:** Verificación estricta de direcciones IP y tipos de datos.
+    * ✅ **Alertas Inteligentes:** Sistema automático que detecta y notifica equipos en estado "Inactivo" o "Mantenimiento".
+    * ✅ **Persistencia:** Almacenamiento robusto en base de datos relacional (MySQL).
 
 ---
 
 ## 🧩 Contenido del Repositorio
 
-### 1. PSeInt (Lógica y Algoritmos)
-Ejercicios enfocados en tipos de datos y estructuras de control básicas.
-* **Tipos de Datos:** Entero, Real, Cadena, Carácter y Lógico.
-* **Operaciones:** Sumas, promedios, conversiones y validaciones.
-* **Estructura:** Entrada (`Leer`), Proceso y Salida (`Escribir`).
+### 1. PSeInt (Fundamentos)
+Ejercicios de lógica pura enfocados en el pensamiento estructurado.
+* **Tipos de Datos y Operadores:** Aritmética, lógica booleana y manipulación de cadenas.
+* **Estructuras de Control:** Condicionales anidados y bucles (`Para`, `Mientras`).
 
-### 2. Python (Scripting y Desarrollo)
-Port de la lógica a un lenguaje de producción, incluyendo conceptos avanzados.
-* **Sintaxis Básica:** Condicionales (`if/else`) y Bucles (`for/while`).
-* **POO (Clases y Objetos):** Creación de modelos (Ej: `Usuario`, `Coche`, `CuentaBancaria`), Herencia y Polimorfismo.
-* **Interfaces Gráficas (GUI):** Desarrollo de ventanas interactivas con **Tkinter** (Labels, Buttons, Entry, Canvas).
-* **Automatización:** Scripts funcionales para tareas específicas.
+### 2. Python (Scripting y POO)
+Transición a código de producción con sintaxis moderna.
+* **Programación Orientada a Objetos (POO):** Clases, Herencia y Polimorfismo (Ej: Modelos de `Usuario`, `Vehiculo`, `Coche`).
+* **Interfaces Gráficas (GUI):** Desarrollo de ventanas interactivas con **Tkinter** (Calculadoras, Formularios, Canvas).
+* **Manejo de Errores:** Uso de bloques `try/except` para aplicaciones robustas.
 
-### 3. Bases de Datos (En desarrollo)
-Introducción a la persistencia y manipulación de datos.
-* Diseño de estructuras de tablas.
-* Consultas y manipulación de registros.
+### 3. Bases de Datos y SQL
+Diseño de esquemas relacionales y manipulación avanzada de datos.
+* **Modelado:** Relaciones Uno a Muchos y Muchos a Muchos (Ej: Sistema de Biblioteca y Ventas).
+* **Consultas Avanzadas (Queries):**
+    * Uso de `JOIN` para vincular tablas (Estudiantes - Departamentos).
+    * Funciones de agregación (`COUNT`, `AVG`, `MAX`).
+    * Filtrado avanzado con `GROUP BY` y `HAVING`.
+    * Ingeniería inversa y diagramado.
 
 ---
 
-## ⚙️ Requisitos Técnicos
+## ⚙️ Instalación y Uso
 
-Para ejecutar los proyectos contenidos aquí, necesitarás:
+Para ejecutar el **Sistema de Inventario**, sigue estos pasos:
 
-* **Para Algoritmos:** [PSeInt](http://pseint.sourceforge.net/) (Versión 2020+).
-* **Para Código Fuente:** [Python](https://www.python.org/) (Versión 3.x).
-* **Entorno de Desarrollo:** VS Code, PyCharm, o cualquier editor de texto.
-* **Bases de Datos:** Motor de BD compatible (según el ejercicio específico).
+1.  **Requisitos Previos:**
+    * Tener instalado Python 3.x.
+    * Tener un servidor MySQL activo (XAMPP, WAMP o MySQL Server).
+
+2.  **Instalar dependencias:**
+    Ejecuta el siguiente comando en tu terminal para instalar el conector de base de datos:
+    ```bash
+    pip install mysql-connector-python
+    ```
+
+3.  **Configurar la Base de Datos:**
+    * Abre tu gestor SQL (phpMyAdmin o Workbench).
+    * Importa o ejecuta el script `base_datos.sql` (ubicado en la carpeta `db` o raíz).
+    * *Opcional:* Si tu MySQL tiene contraseña, edita el archivo `.py` en la función `conectar_db()`.
+
+4.  **Ejecutar la App:**
+    ```bash
+    python Inventario_de_red.py
+    ```
 
 ---
 
 ## 🛠️ Guía de Solución de Problemas
 
-### En PSeInt
-Si no se generan resultados:
-* Revisar el cierre de bloques (`FinSi`, `FinProceso`).
-* Usar la herramienta **"Depurar"** (paso a paso) para ver dónde se detiene el flujo.
-
-### En Python
-Si el script falla o se cierra:
-* Verificar la **indentación** (Python es estricto con los espacios).
-* Leer el **Traceback** en la terminal; suele indicar la línea exacta del error.
-* Asegurarse de importar las librerías necesarias (ej: `import tkinter`).
+* **Error `ModuleNotFoundError`:** Asegúrate de haber ejecutado el comando `pip install` del paso 2.
+* **Error de Conexión DB:** Verifica que XAMPP/MySQL esté encendido y que el usuario/contraseña en el script de Python coincidan con los de tu servidor local.
+* **PSeInt no ejecuta:** Revisa que los bloques `FinSi` o `FinProceso` estén correctamente cerrados.
 
 ---
 
@@ -70,4 +84,5 @@ Si el script falla o se cierra:
 
 **NEDUAL E. VARGAS PEREZ**
 
-*Entusiasta de la Infraestructura TI, Ciberseguridad y Desarrollo.*
+*Entusiasta de la Infraestructura TI, Ciberseguridad y Desarrollo de Software.*
+*Explorando la intersección entre la administración de redes y la automatización con Python.*
