@@ -1,11 +1,12 @@
-# 🚀 Fundamentos de Programación, Python y Bases de Datos
+# 🚀 Fundamentos de Programación, Python, C++ y Bases de Datos
 
-Este repositorio consolida mi portafolio de aprendizaje progresivo, abarcando desde la lógica algorítmica fundamental hasta el desarrollo de aplicaciones de escritorio con persistencia de datos en MySQL.
+Este repositorio consolida mi portafolio de aprendizaje progresivo, abarcando desde la lógica algorítmica fundamental hasta el desarrollo de aplicaciones de escritorio con persistencia de datos y programación de bajo nivel.
 
-El proyecto se divide en tres pilares:
+El proyecto se divide en cuatro áreas clave:
 1.  **Lógica Algorítmica** (PSeInt).
 2.  **Desarrollo de Software** (Python + POO + GUI).
 3.  **Ingeniería de Datos** (Modelado SQL y Consultas Avanzadas).
+4.  **Programación Estructurada** (C++ Essentials - Cisco).
 
 ---
 
@@ -43,6 +44,13 @@ Diseño de esquemas relacionales y manipulación avanzada de datos.
     * Funciones de agregación (`COUNT`, `AVG`, `MAX`).
     * Filtrado avanzado con `GROUP BY` y `HAVING`.
     * Ingeniería inversa y diagramado.
+
+### 4. C++ (Cisco Networking Academy - Essentials 1)
+Incorporación de conceptos de programación de bajo nivel, gestión de memoria y sintaxis estricta.
+* **Fundamentos:** Sintaxis, semántica, compilación y tipos de datos primitivos.
+* **Control de Flujo:** Estructuras condicionales complejas (`switch`, `if-else`) y bucles iterativos.
+* **Vectores y Arreglos:** Manipulación y recorrido de colecciones de datos.
+* **Modularización:** Uso de funciones y paso de parámetros por valor.
 
 ---
 
@@ -85,4 +93,4 @@ Para ejecutar el **Sistema de Inventario**, sigue estos pasos:
 **NEDUAL E. VARGAS PEREZ**
 
 *Entusiasta de la Infraestructura TI, Ciberseguridad y Desarrollo de Software.*
-*Explorando la intersección entre la administración de redes y la automatización con Python.*
+*Explorando la intersección entre la administración de redes, la automatización con Python y la eficiencia de C++.*
